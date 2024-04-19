@@ -9,25 +9,16 @@ const About = () => {
         <h1 className="text-4xl text-center font-semibold">About</h1>
         <div className="w-max flex flex-col">
           <img src={aboutImg} className="w-40 h-40" alt="Image" />
-          <h1 className="text-xl font-semibold text-center">Sanjay NG</h1>
+          <h1 className="text-xl font-semibold text-center">Ajay Panpatil</h1>
         </div>
         <ul className="list-disc w-max mx-5">
           <li className="hover:underline hover:text-blue-600 cursor-pointer">
             <a
               className="flex items-center gap-2"
-              href="https://github.com/Sanjayng125"
+              href="https://github.com/csstudyme"
               target="_blank"
             >
               Git-Hub <FaExternalLinkAlt />
-            </a>
-          </li>
-          <li className="hover:underline hover:text-pink-600 cursor-pointer">
-            <a
-              className="flex items-center gap-2"
-              href="https://www.instagram.com/sanjay_ng_125/"
-              target="_blank"
-            >
-              Instagram <FaExternalLinkAlt />
             </a>
           </li>
         </ul>

@@ -1,3 +1,0 @@
-# Hi
-
-# All of you

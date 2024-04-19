@@ -79,9 +79,9 @@ const AllUsers = () => {
                   className="flex overflow-auto justify-between p-2 px-3 border-y-2 gap-3"
                   key={i}
                 >
-                  <h5 className="flex flex-1 justify-center items-center text-ellipsis p-[5px]">
+                  {/* <h5 className="flex flex-1 justify-center items-center text-ellipsis p-[5px]">
                     {user._id}
-                  </h5>
+                  </h5> */}
                   <h5 className="flex flex-1 justify-center items-center text-ellipsis p-[5px]">
                     {user.username}
                   </h5>

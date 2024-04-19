@@ -7,7 +7,7 @@ const Header = () => {
   const { currentUser } = useSelector((state) => state.user);
   return (
     <>
-      <div className="bg-slate-400 p-4 flex justify-between items-center">
+      <div className="bg-neutral-400 p-4 flex justify-between items-center">
         <h1
           className="h-min text-4xl font-bold relative"
           style={{
@@ -16,14 +16,14 @@ const Header = () => {
             WebkitTextStrokeColor: "#fff",
           }}
         >
-          Come
+          The
           <span
             className="shadow-xl rounded-lg text-slate-700 text-2xl absolute left-1 top-[-10px] text-center"
             style={{
               WebkitTextStroke: "0",
             }}
           >
-            Dream Tours
+            Tour World
           </span>
         </h1>
         <ul className="flex flex-wrap items-center justify-end gap-2 text-white font-semibold list-none">
