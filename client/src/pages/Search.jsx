@@ -116,7 +116,7 @@ const Search = () => {
               onChange={handleChange}
             />
           </div>
-          <div className="flex gap-2 flex-wrap items-center">
+          {/* <div className="flex gap-2 flex-wrap items-center">
             <label className="font-semibold">Type:</label>
             <div className="flex gap-2">
               <input
@@ -144,7 +144,7 @@ const Search = () => {
               <option value="createdAt_desc">Latest</option>
               <option value="createdAt_asc">Oldest</option>
             </select>
-          </div>
+          </div> */}
           <button className="bg-slate-700 rounded-lg text-white p-3 uppercase hover:opacity-95">
             Search
           </button>

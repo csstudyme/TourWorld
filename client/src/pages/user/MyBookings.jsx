@@ -95,6 +95,7 @@ const MyBookings = () => {
                 </Link>
                 <p>{booking?.buyer?.username}</p>
                 <p>{booking?.buyer?.email}</p>
+                <p>{booking?.persons}</p>
                 <p>{booking?.date}</p>
                 <button
                   onClick={() => {

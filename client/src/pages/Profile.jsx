@@ -267,7 +267,7 @@ const Profile = () => {
                   >
                     Bookings
                   </button>
-                  <button
+                  {/* <button
                     className={
                       activePanelId === 2
                         ? "p-1 rounded-t transition-all duration-300 bg-blue-500 text-white"
@@ -277,7 +277,7 @@ const Profile = () => {
                     onClick={() => setActivePanelId(2)}
                   >
                     History
-                  </button>
+                  </button> */}
                 </div>
               </nav>
               {/* bookings */}

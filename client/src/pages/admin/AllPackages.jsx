@@ -70,7 +70,7 @@ const AllPackages = () => {
               />
             </div>
             <div className="my-2 border-y-2 py-2">
-              <ul className="w-full flex justify-around">
+              {/* <ul className="w-full flex justify-around">
                 <li
                   className={`cursor-pointer hover:scale-95 border rounded-xl p-2 transition-all duration-300 ${
                     filter === "all" && "bg-blue-500 text-white"
@@ -115,7 +115,7 @@ const AllPackages = () => {
                 >
                   Top
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </>
         )}

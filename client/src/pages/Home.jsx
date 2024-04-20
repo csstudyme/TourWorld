@@ -118,7 +118,7 @@ const Home = () => {
               Best Offers
               <LuBadgePercent className="text-2xl" />
             </button>
-            <button
+            {/* <button
               onClick={() => {
                 navigate("/search?sort=packageRating");
               }}
@@ -126,7 +126,7 @@ const Home = () => {
             >
               Top Rated
               <FaStar className="text-2xl" />
-            </button>
+            </button> */}
             <button
               onClick={() => {
                 navigate("/search?sort=createdAt");
@@ -183,7 +183,7 @@ const Home = () => {
           {/* offer */}
           {!loading && offerPackages.length > 0 && (
             <>
-              <div className="offers_img"></div>
+              {/* <div className="offers_img"></div> */}
               <h1 className="text-2xl font-semibold">Best Offers</h1>
               <div className="flex flex-wrap gap-2 my-3">
                 {offerPackages.map((packageData, i) => {

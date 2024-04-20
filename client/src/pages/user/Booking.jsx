@@ -341,7 +341,7 @@ const Booking = () => {
                   Payment:
                   {!instance
                     ? "Loading..."
-                    : "Don't use your original card details!(This is not the production build)"}
+                    : "Use the cards from https://developer.paypal.com/braintree/docs/guides/credit-cards/testing-go-live/php/"}
                 </p>
                 {clientToken && (
                   <>
