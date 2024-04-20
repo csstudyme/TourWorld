@@ -311,7 +311,7 @@ const AdminDashboard = () => {
                   >
                     Payments
                   </button>
-                  {/* <button
+                   <button
                     className={
                       activePanelId === 6
                         ? "p-1 rounded-t transition-all duration-300 text-nowrap bg-blue-500 text-white"
@@ -321,7 +321,7 @@ const AdminDashboard = () => {
                     onClick={() => setActivePanelId(6)}
                   >
                     Ratings/Reviews
-                  </button> */}
+                  </button>
                   {/* <button
                     className={
                       activePanelId === 7
