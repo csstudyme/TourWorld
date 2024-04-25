@@ -251,7 +251,7 @@ const AddPackages = () => {
               <option>Select</option>
               <option>Flight</option>
               <option>Train</option>
-              <option>Boat</option>
+              <option>Bus</option>
               <option>Other</option>
             </select>
           </div>

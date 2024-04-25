@@ -11,25 +11,13 @@ const About = () => {
           <img src={aboutImg} className="w-40 h-40" alt="Image" />
           <h1 className="text-xl font-semibold text-center">Ajay Panpatil</h1>
         </div>
-        <ul className="list-disc w-max mx-5">
-          <li className="hover:underline hover:text-blue-600 cursor-pointer">
-            <a
-              className="flex items-center gap-2"
-              href="https://github.com/csstudyme"
-              target="_blank"
-            >
-              Git-Hub <FaExternalLinkAlt />
-            </a>
-          </li>
-        </ul>
+    
+          <h2 className="text-xl font-semibold">Phone No : 9898787808</h2>
+          <h2 className="text-xl font-semibold">Email : csstudyme@Gmail.com</h2>
+         
+        
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-          aliquam voluptatibus odit, saepe exercitationem autem molestias
-          asperiores dolores sit corrupti molestiae ea, facere, totam
-          necessitatibus enim quod aliquid. Quisquam, dolor. aliquam
-          voluptatibus odit, saepe exercitationem autem molestias asperiores
-          dolores sit corrupti molestiae ea, facere, totam necessitatibus enim
-          quod aliquid. Quisquam, dolor.
+        The project ‘Tours and Travels’ is developed to replace the currently existing system, which helps in keeping records of the customer, details of destination as well as payment received. It saves the precious asset that is time, and also accuracy, reliability and uniformity can be maintained. This project is useful for the manager of the company as it helps them to search the data faster than the existing system, to get customer records easily and reports of the customer payments.
         </p>
       </div>
     </div>

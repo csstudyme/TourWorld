@@ -267,17 +267,6 @@ const Profile = () => {
                   >
                     Bookings
                   </button>
-                  {/* <button
-                    className={
-                      activePanelId === 2
-                        ? "p-1 rounded-t transition-all duration-300 bg-blue-500 text-white"
-                        : "p-1 rounded-t transition-all duration-300"
-                    }
-                    id="updateProfile"
-                    onClick={() => setActivePanelId(2)}
-                  >
-                    History
-                  </button> */}
                 </div>
               </nav>
               {/* bookings */}

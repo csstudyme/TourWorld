@@ -24,10 +24,9 @@ const Spinner = ({ path = "login" }) => {
         style={{ height: "100vh" }}
       >
         <h1 className="text-center text-2xl me-2">
-          Redirecting you in {count}
         </h1>
         <div className="spinner-border" role="status">
-          <span className="visually-hidden">Loading...</span>
+          <span className="visually-hidden"></span>
         </div>
       </div>
     </>

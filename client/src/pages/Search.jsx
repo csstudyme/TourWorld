@@ -116,35 +116,7 @@ const Search = () => {
               onChange={handleChange}
             />
           </div>
-          {/* <div className="flex gap-2 flex-wrap items-center">
-            <label className="font-semibold">Type:</label>
-            <div className="flex gap-2">
-              <input
-                type="checkbox"
-                id="offer"
-                className="w-5"
-                checked={sideBarSearchData.offer}
-                onChange={handleChange}
-              />
-              <span>Offer</span>
-            </div>
-          </div>
-          <div className="flex items-center gap-2">
-            <label className="font-semibold">Sort:</label>
-            <select
-              onChange={handleChange}
-              defaultValue={"created_at_desc"}
-              id="sort_order"
-              className="p-3 border rounded-lg"
-            >
-              <option value="packagePrice_desc">Price high to low</option>
-              <option value="packagePrice_asc">Price low to high</option>
-              <option value="packageRating_desc">Top Rated</option>
-              <option value="packageTotalRatings_desc">Most Rated</option>
-              <option value="createdAt_desc">Latest</option>
-              <option value="createdAt_asc">Oldest</option>
-            </select>
-          </div> */}
+          
           <button className="bg-slate-700 rounded-lg text-white p-3 uppercase hover:opacity-95">
             Search
           </button>

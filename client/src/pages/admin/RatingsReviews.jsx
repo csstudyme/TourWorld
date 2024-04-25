@@ -61,43 +61,8 @@ const RatingsReviews = () => {
         {loading && <h1 className="text-center text-lg">Loading...</h1>}
         {packages && (
           <>
-            <div>
-              <input
-                className="p-2 rounded border"
-                type="text"
-                placeholder="Search"
-                value={search}
-                onChange={(e) => {
-                  setSearch(e.target.value);
-                }}
-              />
-            </div>
-            <div className="my-2 border-y-2 py-2">
-              <ul className="w-full flex justify-around">
-                <li
-                  className={`cursor-pointer hover:scale-95 border rounded-xl p-2 transition-all duration-300 ${
-                    filter === "all" && "bg-blue-500 text-white"
-                  }`}
-                  id="all"
-                  onClick={(e) => {
-                    setFilter(e.target.id);
-                  }}
-                >
-                  All
-                </li>
-                <li
-                  className={`cursor-pointer hover:scale-95 border rounded-xl p-2 transition-all duration-300 ${
-                    filter === "most" && "bg-blue-500 text-white"
-                  }`}
-                  id="most"
-                  onClick={(e) => {
-                    setFilter(e.target.id);
-                  }}
-                >
-                  Most Rated
-                </li>
-              </ul>
-            </div>
+            
+            
           </>
         )}
         {/* packages */}

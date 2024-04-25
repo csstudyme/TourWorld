@@ -27,7 +27,6 @@ import AllPackages from "./AllPackages";
 import AllUsers from "./AllUsers";
 import Payments from "./Payments";
 import RatingsReviews from "./RatingsReviews";
-import History from "./History";
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
@@ -223,7 +222,7 @@ const AdminDashboard = () => {
                   Log-out
                 </button>
                 <button
-                  onClick={() => setActivePanelId(8)}
+                  onClick={() => setActivePanelId(7)}
                   className="text-white text-lg self-end bg-gray-500 p-1 rounded-lg hover:bg-gray-700"
                 >
                   Edit Profile
@@ -322,28 +321,6 @@ const AdminDashboard = () => {
                   >
                     Ratings/Reviews
                   </button>
-                  {/* <button
-                    className={
-                      activePanelId === 7
-                        ? "p-1 rounded-t transition-all duration-300 text-nowrap bg-blue-500 text-white"
-                        : "p-1 rounded-t transition-all duration-300 text-nowrap"
-                    }
-                    id="bookings"
-                    onClick={() => setActivePanelId(7)}
-                  >
-                    History
-                  </button> */}
-                  {/* <button
-                    className={
-                      activePanelId === 7
-                        ? "p-1 rounded-t transition-all duration-300 text-nowrap bg-blue-500 text-white"
-                        : "p-1 rounded-t transition-all duration-300 text-nowrap"
-                    }
-                    id="updateProfile"
-                    onClick={() => setActivePanelId(7)}
-                  >
-                    Update Profile
-                  </button> */}
                 </div>
               </nav>
               <div className="content-div flex flex-wrap">
@@ -360,8 +337,6 @@ const AdminDashboard = () => {
                 ) : activePanelId === 6 ? (
                   <RatingsReviews />
                 ) : activePanelId === 7 ? (
-                  <History />
-                ) : activePanelId === 8 ? (
                   <AdminUpdateProfile />
                 ) : (
                   <div>Page Not Found!</div>
